@@ -1,6 +1,7 @@
 import { Text } from '@chakra-ui/react'
 import { Center,Box } from '@chakra-ui/react'
 import { Image } from '@chakra-ui/react'
+import { Link } from '@chakra-ui/react'
 import { Heading } from '@chakra-ui/react'
 
 export const ProfilePage = () => {
@@ -26,7 +27,7 @@ export const ProfilePage = () => {
 
 
                     </Text>
-                    <a href="/">戻る</a>
+                    <Link href="/">戻る</Link>
                 </Box>
             
             </Center>

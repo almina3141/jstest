@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Link } from '@chakra-ui/react'
 import { Inter } from 'next/font/google'
 import { useState } from "react"
 import styles from '@/styles/Home.module.css'
@@ -27,7 +28,7 @@ export default function Home() {
         <h1>カウント</h1>
         <h2>{count}</h2>
         <MyButton addCount={addCount}></MyButton><br />
-        <a href="/profile">プロフィールに飛ぶ</a>
+        <Link href="/profile">プロフィールに飛ぶ</Link>
       </main>
     </>
   )
